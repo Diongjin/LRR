@@ -9,5 +9,5 @@ package deu.cse.lectureroomreservation.control;
  * @author skylo
  */
 public class LoginController {
-    
+    // hello
 }
