@@ -58,7 +58,7 @@ public class LectureRoomTest {
         
         // IEB916호실의 화요일 2,3교시 강의실 예약
         for (LectureRoom r : lectureRoomList2) {
-            if (r.getId().equals("IEB916")) {
+            if (r.getId().equals("IEB916")) { // 오류가 어디서 남?
                 r.addReservation(DaysOfWeek.TUESDAY, 2, 3, "전우치");
                 break;
             }
